@@ -1,0 +1,128 @@
+html{
+    padding: 0%;
+    margin:0%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    /* background-color:aquamarine; */
+    /* border: solid 1px black; */
+    width: 400px;
+    height:auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center ;
+    align-items: center;
+    gap: 5px
+}
+.item{
+    padding:10px ;
+    align-self:center;
+    /* border: solid 1px black; */
+}
+.insta{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+     width: 275px; 
+    height: 80px;
+
+}
+.imginsta{
+    /* padding-top: 30px; */
+    width: 175px;
+    height: 50px;
+}
+
+.child{
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 25px 30px 25px 30px;
+    margin: 10px;
+    width: 300px;
+    border:  solid 1px rgb(202, 198, 198);
+    align-self: center;
+}
+.child2{
+    padding-top: 15px;
+}
+ p{
+    margin: 2%;
+    text-align: center;
+    
+} 
+.logo{
+    font-style: italic;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    height: 30px;
+    width: 100%;
+    background-color:#0095f6;
+    color: white;
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    border-radius: 5px;
+    border:1px;
+    font-weight: 600;
+    /* font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; */
+}
+input{
+    /* background-color: azure; */
+    border-style: none;
+    width: 97%;
+    height: 35px;
+    border: 1px solid rgb(214, 212, 212);
+    border-radius: 2px;
+    /* box-shadow: 2px 2px 2px 2px rgb(218, 212, 212); */
+}
+.or{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.orr{
+    
+    padding-left: 5px;
+    padding-right:5px ;
+
+}
+.dash{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.forgot{
+    
+    margin: 0%;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.lofo{
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+.forgot a{
+    font-size: 12px;
+    font-weight: 200;
+    color: black;
+}
+.lofo{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
